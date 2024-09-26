@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Carousel and Cards</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Carousel Section -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+
+      <!-- Carousel items/slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/auto.png"
+            class="d-block w-100"
+            alt="Auto Responsibility Insurance"
+          />
+          <div class="carousel-caption d-none d-md-block carousel-bckgrnd">
+            <h2>Авто Одговорност</h2>
+            <p class="fs-4">
+              Покрива штети и одговорности кои можете да ги предизвикате на
+              други лица, возила или имот во случај на сообраќајна несреќа.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/kasko.png"
+            class="d-block w-100"
+            alt="Kasko Insurance"
+          />
+          <div class="carousel-caption d-none d-md-block carousel-bckgrnd">
+            <h2>Каско Осигурување</h2>
+            <p class="fs-4">
+              Сеопфатна заштита на возилото, вклучувајќи несреќи, кражби и
+              природни непогоди, надвор од задолжителното осигурување од
+              одговорност.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/travel.png"
+            class="d-block w-100"
+            alt="Traveler's Insurance"
+          />
+          <div class="carousel-caption d-none d-md-block carousel-bckgrnd">
+            <h2>Патничко Осигурување</h2>
+            <p class="fs-4">
+              Чувствувајте се сигурно за време на Вашите патувања.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/home.png"
+            class="d-block w-100"
+            alt="Home Insurance"
+          />
+          <div class="carousel-caption d-none d-md-block carousel-bckgrnd">
+            <h2>Осигурување на имот</h2>
+            <p class="fs-4">
+              Обезбедете финансиска заштита од оштетувања на вашиот дом и имот
+              од настани како пожар, кражба или природни непогоди.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls (Prev/Next) -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100 d-flex flex-column">
+            <img
+              src="images/auto.png"
+              class="card-img-top"
+              alt="Auto Insurance"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Авто Осигурување</h5>
+              <p class="card-text">
+                Обезбедува заштита од штети и одговорност при сообраќајни
+                несреќи.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Повеќе</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100 d-flex flex-column">
+            <img
+              src="images/kasko.png"
+              class="card-img-top"
+              alt="Kasko Insurance"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Каско Осигурување</h5>
+              <p class="card-text">
+                Целосна заштита од несреќи, кражби и природни непогоди.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Повеќе</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100 d-flex flex-column">
+            <img
+              src="images/travel.png"
+              class="card-img-top"
+              alt="Traveler's Insurance"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Патничко Осигурување</h5>
+              <p class="card-text">Безбедност на патувањата.</p>
+              <a href="#" class="btn btn-primary mt-auto">Повеќе</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col">
+          <div class="card h-100 d-flex flex-column">
+            <img
+              src="images/home.png"
+              class="card-img-top"
+              alt="Home Insurance"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Осигурување на Имот</h5>
+              <p class="card-text">
+                Заштита од штети на вашиот дом и имот од несреќи и природни
+                непогоди.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Повеќе</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

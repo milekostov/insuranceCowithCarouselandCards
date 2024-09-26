@@ -1,0 +1,19 @@
+.carousel-bckgrnd {
+  background-color: rgba(
+    28,
+    139,
+    171,
+    0.5
+  ); /* Semi-transparent version of #1c8bab */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-inner img {
+  max-height: 80vh; /* Limits the carousel height to 80% of the viewport height */
+  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+.carousel-caption {
+  bottom: 20px; /* Moves the caption a bit higher */
+}
