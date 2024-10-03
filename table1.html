@@ -4,21 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table with Check Mark and Red Slash</title>
-    <style>
-      table {
-        width: 100%;
-        border-collapse: collapse;
-      }
-      th,
-      td {
-        border: 1px solid #ccc;
-        padding: 8px;
-        text-align: center;
-      }
-      th {
-        background-color: #f4f4f4;
-      }
-    </style>
+    <link href="styles/tablestyle.css" rel="stylesheet" />
   </head>
   <body>
     <table>
@@ -32,7 +18,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>Удар од гром</td>
+          <td class="left">Удар од гром</td>
           <td>
             &#x2705;
             <!-- Green Check Mark -->
@@ -41,21 +27,156 @@
           <td>&#x2705;</td>
         </tr>
         <tr>
-          <td>Експлозија</td>
+          <td class="left">Експлозија</td>
           <td>&#x2705;</td>
           <td>&#x2705;</td>
           <td>&#x2705;</td>
         </tr>
         <tr>
-          <td>Луња</td>
+          <td class="left">Луња</td>
           <td>&#x2705;</td>
           <td>&#x2705;</td>
           <td>&#x2705;</td>
         </tr>
         <tr>
-          <td>Data 1</td>
+          <td class="left">Град</td>
           <td>&#x2705;</td>
           <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Паѓање на воздушни летала</td>
+          <td>
+            &#x2705;
+            <!-- Green Check Mark -->
+          </td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Манифестации и демонстрации</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">
+            Излевање на вода од одводни и канализациони инсталации, од уреди и
+            цевки од топловодни инсталации
+          </td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Удар од сопствено моторно возило</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Провална кражба и разбојништво</td>
+          <td>
+            &#x2705;
+            <!-- Green Check Mark -->
+          </td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Трошоци за нужно сместување и одговорност</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Поплава, порој и високи води</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Снежна лавина</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Лизгање и одрон на земјиште</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Кршење на стакло на прозорци и врати на станбениот објект</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Излевање на вода од аквариум</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Тежина на снег</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Атмосферски води</td>
+          <td>/</td>
+          <td>/</td>
+          <td>/</td>
+        </tr>
+        <tr>
+          <td class="left">Удар од непознато моторно возило</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Удар од паѓање на дрво</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Вандализам</td>
+          <td>/</td>
+          <td>/</td>
+          <td>/</td>
+        </tr>
+        <tr>
+          <td class="left">Кршење стакла/плексиглас на застаклени балкони</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Кршење на санитарии</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Трошоци на принудна преселба</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr>
+          <td class="left">Трошоци за повторно изработување на уништени документи, изгубени и заклучени клучеви</td>
+          <td>/</td>
+          <td>/</td>
+          <td>&#x2705;</td>
+        </tr>
+        <tr></tr>
+          <td class="left">Стакла на туш кабини, стаклени маси, огледала и витрини од стакло</td>
+          <td>/</td>
+          <td>/</td>
           <td>&#x2705;</td>
         </tr>
       </tbody>
