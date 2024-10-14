@@ -1,6 +1,6 @@
 .icon-container {
-  width: 150px; /* Fixed width for uniformity */
-  height: 150px; /* Fixed height for uniformity */
+  width: 100px; /* Fixed width for uniformity */
+  height: 100px; /* Fixed height for uniformity */
   display: flex; /* Flexbox for centering */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -11,4 +11,14 @@
   width: 100%; /* Scale to fit container width */
   height: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Contain within the div */
+}
+
+.call {
+  width: 100px;
+  height: 100px;
+}
+
+.telsize {
+  font-size: 60px;
+  line-height: 1;
 }
