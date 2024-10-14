@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Carousel and Cards</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center my-4">
+            <h1 class="display-4 fw-bold text-dark">
+              Генерална Дирекција ХАЛК ОСИГУРУВАЊЕ А.Д. Скопје
+            </h1>
+            <h4 class="fst-italic text-secondary">
+              ул. Мајка Тереза 1, влез 2, Скопје
+            </h4>
+          </div>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.3615340428296!2d21.423091275911133!3d41.99251597122942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415baf4417799%3A0xdc6ebc37b8d66aab!2sHALK%20OSIGURUVANJE%20A.D.%20Skopje!5e0!3m2!1sen!2smk!4v1728592121716!5m2!1sen!2smk"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Куманово</h5>
+            <p class="card-text">Адреса: Генерал Васко Карангеловски 29 2/2</p>
+            <p class="card-text">
+              Тел:
+              <a
+                href="tel:+38978390945"
+                class="btn btn-dark rounded-circle d-flex justify-content-center align-items-center d-md-none"
+                style="width: 150px; height: 150px"
+              >
+                <i
+                  class="bi bi-telephone"
+                  style="font-size: 60px; line-height: 1"
+                ></i>
+              </a>
+              <span class="d-none d-md-inline">+389 78 390 945</span>
+            </p>
+
+            <p class="card-text">
+              Емаил:
+              <a href="mailto:bitola@halkinsurance.com.mk"
+                >bitola@halkinsurance.com.mk</a
+              >
+            </p>
+
+            <a
+              href="https://maps.app.goo.gl/3nXdRq8cJ8JamsiH7"
+              class="btn btn-dark btn-lg"
+              target="_blank"
+              >Види на мапа</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Branch 2</h5>
+            <p class="card-text">
+              Address: 456 Elm Street, Another City, Country
+            </p>
+            <p class="card-text">Phone: +987 654 3210</p>
+            <a
+              href="https://www.google.com/maps?q=456+Elm+Street,+Another+City,+Country"
+              class="btn btn-primary"
+              target="_blank"
+              >View on Map</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
