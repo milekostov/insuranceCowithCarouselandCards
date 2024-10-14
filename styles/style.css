@@ -17,3 +17,13 @@
 .carousel-caption {
   bottom: 20px; /* Moves the caption a bit higher */
 }
+
+/*Style to adjust the phone icon size*/
+.call {
+  width: 100px;
+  height: 100px;
+}
+.telsize {
+  font-size: 60px;
+  line-height: 1;
+}
