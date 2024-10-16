@@ -1,0 +1,16 @@
+.custom-card {
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 15px;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align content to the left */
+}
+.custom-card img {
+  max-width: 50px;
+  margin-bottom: 10px; /* Space between image and title */
+}
+
+p {
+  font-size: large;
+}

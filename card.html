@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card with Popup</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .custom-card {
+        cursor: pointer;
+        border: 1px solid #ddd;
+        padding: 15px;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align content to the left */
+      }
+      .custom-card img {
+        max-width: 50px;
+        margin-bottom: 10px; /* Space between image and title */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <!-- Clickable Card -->
+        <div
+          class="custom-card"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal"
+        >
+          <img src="images/roadasistence.png" alt="Vuča i asistencija" />
+          <div>
+            <h3 class="title--Small">Vuča i asistencija</h3>
+            <p>
+              Pomažemo ti na cesti organiziranjem vuče ili manjih popravaka
+              vozila u slučaju kvara ili nezgode.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="popupModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="popupModalLabel">Vuča i asistencija</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Organiziramo vuču ili manji popravak vozila u slučaju kvara ili
+            nezgode. Brzo i efikasno rešenje na putu!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Zatvori
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
